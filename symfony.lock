@@ -37,6 +37,9 @@
     "doctrine/common": {
         "version": "2.13.3"
     },
+    "doctrine/data-fixtures": {
+        "version": "1.4.3"
+    },
     "doctrine/dbal": {
         "version": "2.10.2"
     },
@@ -55,6 +58,31 @@
             "src/Repository/.gitignore"
         ]
     },
+    "doctrine/doctrine-fixtures-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "fc52d86631a6dfd9fdf3381d0b7e3df2069e51b3"
+        },
+        "files": [
+            "src/DataFixtures/AppFixtures.php"
+        ]
+    },
+    "doctrine/doctrine-migrations-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "baaa439e3e3179e69e3da84b671f0a3e4a2f56ad"
+        },
+        "files": [
+            "config/packages/doctrine_migrations.yaml",
+            "migrations/.gitignore"
+        ]
+    },
     "doctrine/event-manager": {
         "version": "1.1.0"
     },
@@ -66,6 +94,9 @@
     },
     "doctrine/lexer": {
         "version": "1.2.1"
+    },
+    "doctrine/migrations": {
+        "version": "3.0.1"
     },
     "doctrine/orm": {
         "version": "v2.7.3"
@@ -81,6 +112,24 @@
     },
     "fig/link-util": {
         "version": "1.1.1"
+    },
+    "lcobucci/jwt": {
+        "version": "3.3.2"
+    },
+    "lexik/jwt-authentication-bundle": {
+        "version": "2.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.5",
+            "ref": "5b2157bcd5778166a5696e42f552ad36529a07a6"
+        },
+        "files": [
+            "config/packages/lexik_jwt_authentication.yaml"
+        ]
+    },
+    "namshi/jose": {
+        "version": "7.2.3"
     },
     "nelmio/cors-bundle": {
         "version": "1.5",
@@ -99,6 +148,9 @@
     },
     "ocramius/package-versions": {
         "version": "1.5.1"
+    },
+    "ocramius/proxy-manager": {
+        "version": "2.2.3"
     },
     "php": {
         "version": "7.3"
@@ -238,6 +290,9 @@
             "version": "1.0",
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
+    },
+    "symfony/orm-pack": {
+        "version": "v2.0.0"
     },
     "symfony/phpunit-bridge": {
         "version": "4.3",
@@ -398,5 +453,11 @@
     },
     "willdurand/negotiation": {
         "version": "v2.3.1"
+    },
+    "zendframework/zend-code": {
+        "version": "3.4.1"
+    },
+    "zendframework/zend-eventmanager": {
+        "version": "3.2.1"
     }
 }
